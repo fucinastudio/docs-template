@@ -1,0 +1,3 @@
+# Fucina Docs Template
+
+Coming soon...

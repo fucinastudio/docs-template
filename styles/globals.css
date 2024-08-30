@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans;
+    font-synthesis-weight: none;
+    text-rendering: optimizeLegibility;
+  }
+}
+
+:root {
+  --nextra-primary-hue: 293deg;
+  --nextra-primary-saturation: 69%;
+}
+
+.logo {
+  font-size: 1.5rem;
+  @apply font-logo font-medium tracking-tight;
+}
+
+.brand-gradient {
+  @apply inline-block bg-gradient-to-r from-violet-100 via-fuchsia-600 via-40% to-purple-950 bg-clip-text text-transparent;
+}
+
+.link {
+  @apply text-fuchsia-600 dark:text-fuchsia-500 underline-offset-1;
+}
+
+.code {
+  @apply font-mono;
+}
+
+/* FIX NEXTRA */
+.nx-px-2 {
+  @apply px-4 !important;
+}
+
+.nx-rounded {
+  @apply rounded-md !important;
+}
+
+.nx-rounded-lg {
+  @apply rounded-lg !important;
+}
+
+input {
+  @apply bg-zinc-50 dark:bg-zinc-900 border-zinc-200 dark:border-zinc-800 text-sm block w-full appearance-none rounded-lg border px-3 py-2 leading-tight transition-colors focus:ring-1 focus:ring-offset-1 focus:ring-fuchsia-200 dark:focus:ring-fuchsia-800 focus:border-fuchsia-600 dark:focus:border-fuchsia-500 focus:ring-offset-transparent !important;
+}
