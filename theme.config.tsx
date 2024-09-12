@@ -3,11 +3,11 @@ import Empty from '@/components/empty';
 const themeConfig = {
   logo: (
     <span className="logo">
-      FUCINA<span className="brand-gradient">*DOCS</span>
+      TEMPLATE<span className="brand-gradient">*DOCS</span>
     </span>
   ),
   project: {
-    link: 'https://github.com/fucinastudio/fucina',
+    link: 'https://github.com/fucinastudio',
   },
   useNextSeoProps() {
     return {
