@@ -1,6 +1,6 @@
 {
   "index": "Welcome",
-  "advanced": "Advanced",
+  "primary": "Primary page",
   "404": {
     "type": "page",
     "theme": {

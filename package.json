@@ -1,7 +1,7 @@
 {
-  "name": "@fucina/docs-template",
+  "name": "fucina-docs-template",
   "version": "0.0.1",
-  "description": "Open source product foundry",
+  "description": "Open source docs template",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
